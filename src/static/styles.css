@@ -172,6 +172,38 @@ footer {
   border: 1px solid rgba(26, 35, 126, 0.08);
 }
 
+.participant-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.delete-btn {
+  background-color: transparent;
+  color: #d32f2f;
+  border: none;
+  padding: 0 4px;
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 20px;
+  min-height: 20px;
+  border-radius: 3px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.delete-btn:hover {
+  background-color: rgba(211, 47, 47, 0.1);
+  color: #b71c1c;
+}
+
+.delete-btn:active {
+  background-color: rgba(211, 47, 47, 0.2);
+}
+
 .no-participants {
   font-size: 14px;
   color: #777;
